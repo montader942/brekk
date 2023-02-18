@@ -40,7 +40,7 @@ hijri = f"{Gregorian.today().to_hijri()} - {hijri_day.text}"
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5244755240,
+    6154063004,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -570,12 +570,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ تـوب سـورس
+**☆ سورس سادثون 
 ☆ الاصدار : 1.2
 ☆ البنك : `{ms}`
 ☆ التاريخ : `{m9zpi}`
 ☆ الايدي : `{event.sender_id}`
-☆ تـوب سـورس : @BREAK_THON**
+☆ السورس  : @Sad_thon**
 ''')
 
 
