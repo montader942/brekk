@@ -789,7 +789,7 @@ ownerhson_id = 6154063004
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري بريك - @break_thon')
+        order = await event.reply('اهلا مطوري بريك - @JYYYB')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
